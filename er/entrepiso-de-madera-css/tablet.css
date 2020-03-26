@@ -1,0 +1,102 @@
+/*CONTENIDO DEL CURSO*/
+h2 {
+    color: black;
+    position: relative;
+    top: 25px;
+    font-size: 1.9rem;
+    font-weight: 700;
+ }
+
+
+
+.image1 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_3D.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+
+
+}
+
+.image2 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_2D.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image3 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_001.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image4 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_002.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image5 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_003.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image6 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_004.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image7 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_005.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image8 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_006.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image9 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_007.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+
+.image10 {
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_008.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}

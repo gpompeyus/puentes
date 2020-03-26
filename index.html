@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name="description" content="Diseño, Calculo y Construcción de Estructuras de Puentes">
+    <meta name="description" content="Diseño, Calculo y Construcción de Puentes">
     <meta name="keywords"
         content="Estructuras, Calculo Estructural, Construcción, Ingenieria, Puentes">
-    <title>Estructuras de Madera</title>
+    <title>Puentes</title>
 
     <link rel="stylesheet" href="css/vernon-reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pc-reusable.css">
     <link rel="stylesheet" href="css/pc.css">
-    <link rel="stylesheet" media="screen and (max-width: 900px" href="css/tablet.css">
-    <link rel="stylesheet" media="screen and (max-width: 600px" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px" href="css/tablet-reusable.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px" href="css/mobile-reusable.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px" href="css/mobile.css">
     <link rel="stylesheet" href="css/print.css" media="print">
 
     <script src="js/script.js"></script>
@@ -25,7 +27,7 @@
 
 <body>
     <header>
-        <div id="menu-bar">
+        <div id="menu-bar" style="display: none;">
             <!--Barra de Navegacion-->
             <div id="menu" onclick="onClickMenu()">
                 <!--Icono hamburguesa-->
@@ -35,221 +37,122 @@
             </div>
             <ul class="nav" id="nav">
                 <!--Links de Navegacion-->
-<!--                <li><a href="#">Inicio</a></li>-->
-<!--                <li><a href="#">Descargas</a></li>-->
-<!--                <li><a href="#">Enlances</a></li>-->
+                <!--<li><a href="#">Inicio</a></li>-->
+                <!--<li><a href="#">Descargas</a></li>-->
+                <!--<li><a href="#">Enlances</a></li>-->
             </ul>
         </div>
 
         <div class="menu-bg" id="menu-bg"></div>
         <!--Fondo Barra de Navegacion-->
 
-        <a href="https://www.ucbscz.edu.bo" target="_blank">
-            <div id="logo-catolica"></div>
-        </a>
     </header>
 
     <section>
         <!--portada-->
         <div class="portada">
-<h1>Puentes</h1>
-            <h2>Basado en la AASHTO LRFD 2018</h2>
+            <h1>Puentes </h1>
+            <h2>Metodo LRFD, basado en la AASHTO 2017</h2>
             <a href="#boton-aqui"><button id="boton-portada">Ver Contenido</button></a>
         </div>
     </section>
 
     <section class="docente-container">
-
         <div class="icon-container">
             <a href="https://twitter.com/gpompeyus" target="_blank"><img alt="" src="img/twitter-icon.svg"></a>
             <a href="https://www.facebook.com/gpompeyus" target="_blank"><img alt="" src="img/facebook-icon.svg"></a>
             <a href="https://www.linkedin.com/in/german-pompeyus/" target="_blank"><img alt=""
                     src="img/linkedin-icon.svg"></a>
         </div>
-        <div id="foto-docente">
-        </div>
-        <p class="enunciado"> Docente:</p>
+        <div class="foto-docente"></div>
+        <h4>Docente:</h4>
         <div>
-            <p class="nombre-docente"> Ing. German Pompeyus Escalante</p>
+            <h3 style="font-weight: 700;"> Ing. German Pompeyus Escalante</h3>
             <hr>
-            <p class="educacion-docente"> Master en Calculo de Estructuras de Obra Civil</p>
-            <p class="profesion-docente"> Jefe de Proyectos&nbspen<a class="pompeyusestructuras"
+            <h4> Master en Calculo de Estructuras de Obra Civil</h4>
+            <h4> Jefe de Proyectos&nbsp;en <a class="pompeyusestructuras"
                     href="https://www.pompeyusestructuras.com" target="_blank"> <span id="pompeyus-estructuras">Pompeyus
-                        Estructuras</span></a></p>
+                        Estructuras</span></a></h4>
         </div>
     </section>
 
     <div class="descripcion-curso">
-       <!--<p>En Este curso de Diseño, Calculo y Construccion de Puentes aprenderas el diseño estructural
+        <!-- <p>En Este curso de Diseño, Calculo y Construccion de Estructuras de Madera aprenderas el diseño estructural
             desde un enfoque practico, con ejemplos de situaciones que reflejan la practica
             profesional y te ayudara a reducir la brecha entre el diseño individual de miembros
-            estructurales y el diseño completo de una estructura metalica.
+            estructurales y el diseño completo de una edificacion en madera.
             <br>
             <br>
 
             Un resumen de lo que aprenderas:</p> <br>
 
         <ul>
-            <li>Elementos y sistemas estructurales utilizados en acero, propiedades y factores que afectan la
+            <li>Elementos y sistemas estructurales utilizados en madera, propiedades y factores que afectan la
                 resistencia estructural</li>
             <li>Cargas sobre las estructuras, carga muerta, carga viva, viento, lluvia, nieve, sismo y la determinacion
                 de sus combinaciones usando el metodo LRFD</li>
-            <li>Diseño de vigas y entrepisos de acero</li>
-            <li>Diseño de miembros sujetos a fuerza axial con flexion, comunes en cerchas y columnas de acero </li>
-            <li>Conexiones de Miembros Estructurales en Acero</li>
-            <li>Consideraciones practicas para el diseño y construccion de edificaciones de Acero</li>
-        </ul>-->
+            <li>Diseño de vigas y entrepisos de madera</li>
+            <li>Diseño de miembros sujetos a fuerza axial con flexion, comunes en cerchas y columnas de madera </li>
+            <li>Conexiones de Miembros Estructurales en Madera</li>
+            <li>Consideraciones practicas para el diseño y construccion de edificaciones de Madera</li>
+        </ul> -->
     </div>
-
 
 
     <div id="boton-aqui"></div>
     <div class="contenido-container">
-        <p class="enunciado">Contenido:</p>
+        <h3>Contenido:</h3>
+        <a id="clases-virtuales" href="clases-virtuales.html" target="_blank">CLASES VIRTUALES (LINK) <style>
+                #clases-virtuales {
+                    padding: 20px;
+                    color: red;
+                    font-size: 2rem;
+                }
+            </style></a>
+
+
+
+
+<!-- ! DESDE AQUI EL CONTENIDO REUSABLE CON css-reusable-->
+
         <input type="checkbox" class="read-more-state" id="post-2" />
 
         <ul class="read-more-wrap">
-            <li class="unidad">1. Introducción</li>
-            <a href="construccion.html" target="_blank">
+
+
+            <li class="unidad">3. Lineas de Influencia</li>
+
+            <a href="vid/linea-de-influencia-para-reacciones.html">
                 <div class="subunidad">
                     <li class="texto-subunidad">
-                        <span class="span-subunidad">Lineas de Influencia</span>
+                        <span class="span-subunidad">Lineas de influencia para reacciones</span>
                     </li>
                     <img class="subunidad-icon" src="img/youtube-icon.svg" alt="">
                 </div>
             </a>
-            <!--Sub-unidad-->
 
-            <a href="construccion.html" target="_blank">
+            <a href="vid/linea-de-influencia-para-cortante.html">
                 <div class="subunidad">
                     <li class="texto-subunidad">
-                        <span class="span-subunidad">Lineas de Influencia de Reacciones</span>
+                        <span class="span-subunidad">Lineas de influencia para cortante</span>
                     </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
+                    <img class="subunidad-icon" src="img/youtube-icon.svg" alt="">
                 </div>
             </a>
-            <!--Sub-unidad-->
 
-            <a href="construccion.html" target="_blank">
+            <a href="vid/linea-de-influencia-para-momento.html">
                 <div class="subunidad">
                     <li class="texto-subunidad">
-                        <span class="span-subunidad">Lineas de Influencia de Cortante</span>
+                        <span class="span-subunidad">Lineas de influencia para momento</span>
                     </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
+                    <img class="subunidad-icon" src="img/youtube-icon.svg" alt="">
                 </div>
             </a>
-            <!--Sub-unidad-->
 
-            <a href="#"
-                target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Lineas de Influencia de Momento</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/download-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
+        
 
-            <li class="unidad">2. Introducción a las cargas estructurales de diseño</li>
+            
 
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Cargas permanentes</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Cargas moviles</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Combinaciones de carga</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Criterios de teformacion</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Ejercicios Resueltos</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/download-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <li class="unidad">3. Diseño de superestructura</li>
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construcción...</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <li class="unidad">4. Diseño de la subestructura</li>
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construccion...</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <li class="unidad">Fundaciones en Puentes</li>
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construccion...</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
-
-            <li class="unidad">5. Proyecto final de Puentes</li>
-
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construccion...</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/chrome-icon.svg" alt="">
-                </div>
-            </a>
-            <!--Sub-unidad-->
 
             <li class="read-more-target">
                 <!--lorem 3-->
@@ -259,9 +162,14 @@
                 <!--lorem 4-->
             </li>
             <!--ELEMENTO PARA VER MAS-->
+<!-- ! HASTA AQUI EL CONTENIDO REUSABLE con css.mobile-reusable-->
+
         </ul>
 
         <label for="post-2" class="read-more-trigger"></label>
+    
+
+
     </div>
 
 

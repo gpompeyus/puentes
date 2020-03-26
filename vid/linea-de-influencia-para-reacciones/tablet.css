@@ -1,0 +1,22 @@
+.video1 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: black;
+    position: relative;
+    top: 25px;
+    font-size: 1.9rem;
+    font-weight: 700;
+ }

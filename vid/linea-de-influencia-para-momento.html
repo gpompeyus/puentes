@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="description" content="Diseño, Calculo y Construcción de Puentes">
+    <meta name="keywords"
+        content="Estructuras, Calculo Estructural, Construcción, Ingenieria, Puentes">
+    <title>Puentes</title>
+
+    <link rel="stylesheet" href="../css/vernon-reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/pc-reusable.css">
+    <link rel="stylesheet" href="linea-de-influencia-para-momento/pc.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px" href="../css/tablet-reusable.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px" href="linea-de-influencia-para-momento/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px" href="../css/mobile-reusable.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px" href="linea-de-influencia-para-momento/mobile.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+
+    <script src="../js/script.js"></script>
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-bar">
+            <!--Barra de Navegacion-->
+            <div id="menu" onclick="onClickMenu()">
+                <!--Icono hamburguesa-->
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <input type="checkbox" class="read-more-state" id="post-2" />
+
+                <ul class="read-more-wrap">
+
+
+                    <!-- ! DESDE AQUI EL CONTENIDO REUSABLE -->
+
+
+                    <li class="unidad">3. Lineas de Influencia</li>
+
+                    <a href="linea-de-influencia-para-reacciones.html">
+                        <div class="subunidad">
+                            <li class="texto-subunidad">
+                                <span class="span-subunidad">Lineas de influencia para reacciones</span>
+                            </li>
+                            <img class="subunidad-icon" src="../img/youtube-icon.svg" alt="">
+                        </div>
+                    </a>
+        
+                    <a href="linea-de-influencia-para-cortante.html">
+                        <div class="subunidad">
+                            <li class="texto-subunidad">
+                                <span class="span-subunidad">Lineas de influencia para cortante</span>
+                            </li>
+                            <img class="subunidad-icon" src="../img/youtube-icon.svg" alt="">
+                        </div>
+                    </a>
+        
+                    <a href="#">
+                        <div class="subunidad" id="subunidad-actual">
+                            <li class="texto-subunidad">
+                                <span class="span-subunidad">Lineas de influencia para momento</span>
+                            </li>
+                            <img class="subunidad-icon" src="../img/youtube-icon.svg" alt="">
+                        </div>
+                    </a>
+        
+
+
+                    <!-- ! HASTA AQUI EL CONTENIDO REUSABLE -->
+
+                    <li class="read-more-target">
+                        <!--lorem 3-->
+                    </li>
+                    <!--ELEMENTO PARA VER MAS-->
+                    <li class="read-more-target">
+                        <!--lorem 4-->
+                    </li>
+                    <!--ELEMENTO PARA VER MAS-->
+                </ul>
+
+                <label for="post-2" class="read-more-trigger"></label>
+            </ul>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+        <!--Fondo Barra de Navegacion-->
+
+        <div class="menu-subunidad">
+
+            <div class="parte-izq">
+                <a class="inicio" href="../index.html">
+                    <div class="logo-inicio"></div>
+                </a>
+
+                <a class="flecha-izq" href="../index.html">
+                    <div class="logo-anterior"></div>
+                </a>
+            </div>
+
+            <a class="parte-der" href="linea-de-influencia-para-cortante">
+                <div class="logo-siguiente"></div>
+            </a>
+
+        </div>
+    </header>
+
+    <!--CONTENIDO DE LA PAGINA EN SI-->
+    <div class="contenido-general">
+        <div class="enunciado">
+            <h2>Linea de influencia para momento</h2>
+            <br>
+            <p>El siguiente video muestra como graficar la linea de influencia en una viga para el momento debido a una carga movil</p>
+            <br>
+        </div>
+
+        <div class="contenido-subunidad">
+            <br>
+            <div class="video1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_BU7BxD1_fI" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </div>
+</body>
